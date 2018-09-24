@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <img src="images/logo-memory.png" alt="logo" class="logo">
+        <nav>
+            <input type="button" value="Restart" class="btn-restart"/>
+        </nav>
+        <div class="timer" id="timer"></div>
+    </div>
+</header>
+<div class="game-field" id="game"></div>
+<div class="menu" id="menu">
+    <div class="flip-container start-container" id="flipContainer">
+        <div class="flipper">
+
+            <div class="front start-container">
+                <h2><p class="description">Select hard-level:</p></h2>
+                <hr>
+                <input data-level="easy" data-count="4" type="button" value="Easy-breezy" class="btn-next"/>
+                <input data-level="medium" data-count="10" type="button" value="Medium" class="btn-next"/>
+                <input data-level="hard1" data-count="16" type="button" value="Nightmare" class="btn-next"/>
+            </div>
+
+            <div class="back start-container">
+                <h2><p class="description">Select card-wrap:</p></h2>
+                <hr>
+                <div class="select-wrap">
+                    <a href="#" data-bg="skirt1" class="skirts"><img src="images/bg1.jpg" alt="" class=""></a>
+                </div>
+                <div class="select-wrap">
+                    <a href="#" data-bg="skirt2" class="skirts"><img src="images/bg2.jpg" alt="" class=""></a>
+                </div>
+                <div class="select-wrap">
+                    <a href="#" data-bg="skirt3" class="skirts"><img src="images/bg3.png" alt="" class=""></a>
+                </div>
+                <div class="select-wrap">
+                    <a href="#" data-bg="skirt4" class="skirts"><img src="images/bg4.jpg" alt="" class=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

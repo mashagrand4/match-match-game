@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.timer{
+    margin: 0 auto;
+    height: 20px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-align: center;
+}
+.game-field{
+    min-width: 500px;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 20px;
+}
+.container{
+    min-width: 940px;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menu{
+    min-width: 500px;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 20px;
+}
+.header{
+    background-color: #f0f0f0;
+    opacity: 0.8;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.20);
+}
+.btn-restart{
+    float: right;
+    margin-top: 20px;
+    background-color: #AFEEEE;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 20px;
+    cursor: pointer;
+}
+.btn-next{
+    width: 100%;
+    height: 60px;
+    margin-top: 63px;
+    background-color: #AFEEEE;
+    border: 0px;
+
+}
+.btn-next:hover{
+    background-color: cadetblue;
+    border: 0.5px solid darkgray;
+    cursor: pointer;
+}
+.logo{
+    float: left;
+    height: 60px;
+    width: 279px;
+}
+.skirt1{
+    background-image: url("../images/bg1.jpg");
+}
+.skirt2{
+    background-image: url("../images/bg2.jpg");
+}
+.skirt3{
+    background-image: url("../images/bg3.png");
+}
+.skirt4{
+    background-image: url("../images/bg4.jpg");
+}
+
+/* весь контейнер поддерживает перспективу */
+.flip-container {
+    perspective: 1000px;
+    display: inline-block;
+    margin-right: 5px;
+}
+/* переверните сторону при проведении мышью */
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 150px;
+    height: 200px;
+}
+.start-container{
+    width: 100%;
+    min-height: 550px;
+    border: 1px solid #AFEEEE;
+    border-radius: 5px;
+}
+
+/* здесь находится скорость перевертывания */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* скройте обратную сторону во время переворота */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* лицевая сторона размещена над обратной */
+.front {
+    z-index: 2;
+}
+.front.start-container{
+    text-align: center;
+}
+.front1{
+    background-image: url("../images/1.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front2{
+    background-image: url("../images/2.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front3{
+    background-image: url("../images/3.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front4{
+    background-image: url("../images/4.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front5{
+    background-image: url("../images/5.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front6{
+    background-image: url("../images/6.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front7{
+    background-image: url("../images/7.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front8{
+    background-image: url("../images/8.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front9{
+    background-image: url("../images/9.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front10{
+    background-image: url("../images/10.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front11{
+    background-image: url("../images/11.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front12{
+    background-image: url("../images/12.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front13{
+    background-image: url("../images/13.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front14{
+    background-image: url("../images/14.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front15{
+    background-image: url("../images/15.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.front16{
+    background-image: url("../images/16.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+
+
+/* обратная, изначально скрытая сторона */
+.back {
+    transform: rotateY(180deg);
+}
+.back.start-container{
+    text-align: center;
+}
+.select-wrap{
+    width: 49%;
+    height: 200px;
+    display: inline-block;
+    margin-top: 10px;
+}
+hr{
+    width: 80%;
+}
+.skirts img{
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.skirts img:hover{
+    box-shadow: 0 0 27px -5px black;
+}
